@@ -4,11 +4,11 @@
 
 ### [Introducción](Introducción.md)
 
-### [Monitorización de Procesos](Monitorización-de-procesos.md)
+### [Monitorización de Procesos](Monitorizacion-de-procesos.md)
 
-### [Monitorización de Almacenamiento](Monitorización-de-almacenamiento.md)
+### [Monitorización de Almacenamiento](Monitorizacion-de-almacenamiento.md)
 
-### [Monitorización de la Red](Monitorización-de-la-red.md)
+### [Monitorización de la Red](Monitorizacion-de-la-red.md)
 
 ### [Referencias](Referencias.md)
 
