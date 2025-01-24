@@ -2,7 +2,7 @@
 <p align="center">
   <img src="/imagenes/monitorización-de-sistemas-informaticos.jpg" alt="Descripción de la imagen" width="500"/>
 </p>
-**La monitorización de sistemas** es una práctica esencial para garantizar el correcto funcionamiento de los sistemas informáticos y prevenir problemas antes de que afecten a los usuarios finales, que básicamente consiste en la instalación de una serie de sensores en los diferentes elementos hardware y software de forma que, 24h al día y 7 días a la semana, estos sensores registran la situación en que están cada uno de los aspectos que controlamos.
+La **Monitorización de Sistemas** es una práctica esencial para garantizar el correcto funcionamiento de los sistemas informáticos y prevenir problemas antes de que afecten a los usuarios finales, que básicamente consiste en la instalación de una serie de sensores en los diferentes elementos hardware y software de forma que, 24h al día y 7 días a la semana, estos sensores registran la situación en que están cada uno de los aspectos que controlamos.
 En un mundo cada vez más digitalizado, donde las organizaciones dependen de sus sistemas para garantizar la continuidad de sus operaciones, es crucial contar con herramientas y técnicas que permitan supervisar de manera continua el estado de los componentes que integran estas infraestructuras. Desde servidores y bases de datos hasta redes y aplicaciones, la monitorización proporciona información en tiempo real sobre el rendimiento, la disponibilidad y posibles incidencias que puedan comprometer el funcionamiento del entorno.
 La monitorización de sistemas se ha convertido en una tarea fundamental en la gestión de infraestructuras tecnológicas, permitiendo supervisar el estado de los recursos y garantizar un rendimiento óptimo.
 
@@ -48,26 +48,32 @@ A través de diversas herramientas, es posible analizar los procesos, el almacen
 - Entre las herramientas más destacadas en entornos de línea de comandos, se encuentran:
   - **htop**: Ideal para la monitorización de procesos en tiempo real, con una interfaz interactiva y amigable. Aunque es muy útil para obtener información rápida sobre el uso de CPU y memoria, no permite un análisis histórico detallado.
   - **df y du**: Herramientas básicas para la monitorización del almacenamiento. Mientras df proporciona datos globales del uso del disco, du detalla el consumo de espacio por directorios. Son ligeras y simples, pero carecen de capacidades avanzadas.
-  - **iftop y nload**: En el ámbito de la red, estas herramientas permiten monitorear el tráfico en tiempo real. iftop muestra conexiones activas, mientras que nload ofrece un resumen gráfico del ancho de banda usado. Sin embargo, no son adecuadas para análisis complejos o históricos.
+ capacidades avanzadas.
+  - **tcpdump e iptraf**: En el ámbito de la red, estas herramientas permiten monitorear el tráfico en tiempo real. `tcpdump` captura y analiza paquetes de red, mientras que `iptraf` ofrece estadísticas detalladas del tráfico de red. Sin embargo, no son adecuadas para análisis complejos o históricos.
 
 ### Herramientas de Interfaz Gráfica
 - Otro mecanismo disponible es la interfaz de usuario gráfica (**GUI**), la cual se utiliza en la actualidad en casi todas las aplicaciones y sistemas de software.
 - Entre las herramientas más avanzadas para entornos gráficos y de análisis en profundidad, destacan:
+
   - **Grafana**: Una plataforma de visualización potente que se integra con numerosas fuentes de datos como Prometheus. Su capacidad para crear paneles personalizados lo hace ideal para análisis históricos y tendencias, aunque requiere cierta curva de aprendizaje.
-<p align="center">
-  <img src="/imagenes/grafana-2.jpg" alt="Descripción de la imagen" width="200"/>
-</p>
+    <p align="center">
+      <img src="/imagenes/grafana-2.jpg" alt="Descripción de la imagen" width="200"/>
+    </p>
+
   - **Prometheus**: Especializada en la monitorización de métricas, es perfecta para la recopilación y análisis de datos en tiempo real. Su principal ventaja es su integración nativa con Grafana, pero puede ser más compleja de configurar en comparación con herramientas más sencillas.
- <p align="center">
-  <img src="/imagenes/prometheus.png" alt="Descripción de la imagen" width="300"/>
-</p>   
+    <p align="center">
+      <img src="/imagenes/prometheus.png" alt="Descripción de la imagen" width="300"/>
+    </p>   
+
   - **Zabbix**: Una solución integral para monitorización en tiempo real y alertas. Es adecuada para grandes infraestructuras, pero puede ser excesiva para entornos pequeños debido a su nivel de configuración.
-  <p align="center">
-  <img src="/imagenes/zabbix-logo.png" alt="Descripción de la imagen" width="200"/>
-</p>
+    <p align="center">
+      <img src="/imagenes/zabbix-logo.png" alt="Descripción de la imagen" width="200"/>
+    </p>
+
   - **Nagios**: Una herramienta sólida para la monitorización de redes, sistemas y aplicaciones. Ofrece flexibilidad mediante plugins, aunque su interfaz puede resultar menos intuitiva comparada con Grafana o Zabbix.
-<p align="center">
-  <img src="/imagenes/nagios.jpg" alt="Descripción de la imagen" width="300"/>
-</p>
+    <p align="center">
+      <img src="/imagenes/nagios.jpg" alt="Descripción de la imagen" width="300"/>
+    </p>
+
 Este trabajo se organiza en tres apartados: la monitorización de procesos, de almacenamiento y de red. Cada sección detallará los comandos esenciales y sus opciones clave, así como ejemplos gráficos (Capturas de Pantalla) de las respuestas de estos al ser ejecutados.
 
