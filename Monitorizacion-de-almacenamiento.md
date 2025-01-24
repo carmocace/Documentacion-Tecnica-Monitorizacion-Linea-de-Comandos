@@ -25,7 +25,7 @@
 - **df -T**
 
 <p align="center">
-  <img src="/imagenes/dh -t.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/df -T.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
 - **df -x listen**
@@ -79,12 +79,53 @@
 - **free -l**
 
 <p align="center">
-  <img src="/imagenes/free -l.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/free2.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
 - **free -t**
  
 <p align="center">
-  <img src="/imagenes/free -t.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/free3.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
+## **Comando IOSTAT**
+
+
+
+### **Opciones**
+
+- **iostat**
+
+<p align="center">
+  <img src="/imagenes/iiostat.png" alt="Descripción de la imagen" width="500"/>
+</p>
+
+- **iostat -x**
+
+<p align="center">
+  <img src="/imagenes/iostat -x.png" alt="Descripción de la imagen" width="500"/>
+</p>
+
+- **iostat -p**
+
+<p align="center">
+  <img src="/imagenes/ios -p.png" alt="Descripción de la imagen" width="500"/>
+</p>
+
+- **iostat**
+
+<p align="center">
+  <img src="/imagenes/iostat2.png" alt="Descripción de la imagen" width="500"/>
+</p>
+
+- **iostat id**
+
+<p align="center">
+  <img src="/imagenes/ios ID.png" alt="Descripción de la imagen" width="500"/>
+</p>
+
+- **iostat**
+
+<p align="center">
+  <img src="/imagenes/iostat.png" alt="Descripción de la imagen" width="500"/>
+</p>
