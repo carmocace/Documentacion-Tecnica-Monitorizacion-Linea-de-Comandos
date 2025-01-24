@@ -54,9 +54,20 @@ A través de diversas herramientas, es posible analizar los procesos, el almacen
 - Otro mecanismo disponible es la interfaz de usuario gráfica (GUI), la cual se utiliza en la actualidad en casi todas las aplicaciones y sistemas de software.
 - Entre las herramientas más avanzadas para entornos gráficos y de análisis en profundidad, destacan:
   - **Grafana**: Una plataforma de visualización potente que se integra con numerosas fuentes de datos como Prometheus. Su capacidad para crear paneles personalizados lo hace ideal para análisis históricos y tendencias, aunque requiere cierta curva de aprendizaje.
+    <p align="center">
+  <img src="/imagenes/grafana-2.jpg" alt="Descripción de la imagen" width="500"/>
+</p>
   - **Prometheus**: Especializada en la monitorización de métricas, es perfecta para la recopilación y análisis de datos en tiempo real. Su principal ventaja es su integración nativa con Grafana, pero puede ser más compleja de configurar en comparación con herramientas más sencillas.
+ <p align="center">
+  <img src="/imagenes/prometheus.png" alt="Descripción de la imagen" width="500"/>
+</p>   
   - **Zabbix**: Una solución integral para monitorización en tiempo real y alertas. Es adecuada para grandes infraestructuras, pero puede ser excesiva para entornos pequeños debido a su nivel de configuración.
+  <p align="center">
+  <img src="/imagenes/zabbix-logo.png" alt="Descripción de la imagen" width="500"/>
+</p>
   - **Nagios**: Una herramienta sólida para la monitorización de redes, sistemas y aplicaciones. Ofrece flexibilidad mediante plugins, aunque su interfaz puede resultar menos intuitiva comparada con Grafana o Zabbix.
-
+<p align="center">
+  <img src="/imagenes/nagios.jpg" alt="Descripción de la imagen" width="500"/>
+</p>
 Este trabajo se organiza en tres apartados: la monitorización de procesos, de almacenamiento y de red. Cada sección detallará los comandos esenciales y sus opciones clave, así como ejemplos gráficos (Capturas de Pantalla) de las respuestas de estos al ser ejecutados.
 
