@@ -15,6 +15,10 @@ La monitorización de sistemas se ha convertido en una tarea fundamental en la g
 - **Tranquilidad**: La monitorización de sistemas es una práctica esencial para garantizar el correcto funcionamiento de una infraestructura IT. Al pasar de un enfoque reactivo a uno proactivo, podremos anticiparnos a los problemas, optimizar el rendimiento, mejorar la disponibilidad y reducir el tiempo de inactividad.
 - **Prevención de situaciones graves**: Cuando los problemas no se abordan de manera proactiva, pueden convertirse en situaciones graves que afectan la eficiencia operativa y la satisfacción del cliente.
 
+<p align="center">
+  <img src="/imagenes/medico.png" alt="Descripción de la imagen" width="500"/>
+</p>
+
 ## Situaciones de Gravedad
 - **Tiempo de inactividad no planificada**: Cuando los sistemas informáticos, las aplicaciones y las redes no se monitorizan de manera proactiva, es más probable que se den tiempos de inactividad no planificados. Este tiempo de inactividad puede resultar en una pérdida de productividad, ingresos y clientes.
 - **Lentitud del sistema**: Las infraestructuras que no se monitorizan de manera proactiva pueden experimentar problemas de rendimiento que afectan la velocidad y la eficiencia del sistema. La lentitud del sistema puede provocar una disminución en la productividad y generar insatisfacción entre los clientes.
