@@ -1,6 +1,6 @@
 # Introducción
 <p align="center">
-  <img src="https://raw.githubusercontent.com/carmocace/DevOps/refs/heads/main/Imagenes/DEVOPS.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/monitorización-de-sistemas-informaticos.jpg" alt="Descripción de la imagen" width="500"/>
 </p>
 La monitorización de sistemas es una práctica esencial para garantizar el correcto funcionamiento de los sistemas informáticos y prevenir problemas antes de que afecten a los usuarios finales, que básicamente consiste en la instalación de una serie de sensores en los diferentes elementos hardware y software de forma que, 24h al día y 7 días a la semana, estos sensores registran la situación en que están cada uno de los aspectos que controlamos.
 En un mundo cada vez más digitalizado, donde las organizaciones dependen de sus sistemas para garantizar la continuidad de sus operaciones, es crucial contar con herramientas y técnicas que permitan supervisar de manera continua el estado de los componentes que integran estas infraestructuras. Desde servidores y bases de datos hasta redes y aplicaciones, la monitorización proporciona información en tiempo real sobre el rendimiento, la disponibilidad y posibles incidencias que puedan comprometer el funcionamiento del entorno.
