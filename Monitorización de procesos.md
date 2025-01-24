@@ -1,5 +1,10 @@
 # **Monitorización de Procesos**
 
+<p align="center">
+  <img src="/imagenes/integracion_datos_monitorizacion_pic01_20240228_blog_equimed.jpg" alt="Descripción de la imagen" width="500"/>
+</p>
+
+
 ## **Comando PS**
 
 El comando ps en Linux tiene muchas opciones útiles para mostrar información sobre los procesos en ejecución. Muestra una lista que incluye información básica sobre cada proceso, como el ID del proceso (PID), el terminal asociado (TTY), el tiempo de CPU utilizado (TIME) y el comando que inició el proceso (CMD).Algunas de las opciones más comunes son:
