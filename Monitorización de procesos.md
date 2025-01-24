@@ -100,7 +100,7 @@ Cuando ejecutamos el comando top sin ninguna opción extra, obtenemos una interf
   <img src="/imagenes/11.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
-- **top -d 5**
+- **top -d**
 
 Se utiliza para especificar el intervalo de actualización en segundos para la salida del comando top. Esto nos permite controlar con qué frecuencia se actualiza la información mostrada en la interfaz interactiva de top.
 
@@ -108,7 +108,7 @@ Se utiliza para especificar el intervalo de actualización en segundos para la s
   <img src="/imagenes/12.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
-- **top -p 1706**
+- **top -p**
 
 Se utiliza para mostrar información sobre procesos específicos, filtrados por el ID del proceso (PID) que especifiquemoss. Debemoss proporcionar el PID como argumento. Esto nos permite monitorear en tiempo real solo los procesos que coinciden con el PID que especificamos.
 
@@ -116,7 +116,7 @@ Se utiliza para mostrar información sobre procesos específicos, filtrados por 
   <img src="/imagenes/13.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
-- **top -u root**
+- **top -u**
 
 Se utiliza para mostrar información sobre los procesos que están actualmente en ejecución en el sistema, filtrados por el usuario especificado. Debemos proporcionar el nombre del usuario como argumento. Esto nos permite monitorear en tiempo real solo los procesos que pertenecen al usuario especificado.
 
@@ -236,4 +236,47 @@ Obtenemos una interfaz interactiva que se actualiza periódicamente y nos muestr
 
 <p align="center">
   <img src="/imagenes/atop -u.png" alt="Descripción de la imagen" width="400"/>
+</p>
+
+## **Comando HTOP**
+
+El comando htop es una herramienta interactiva de monitorización de procesos que proporciona una visión en tiempo real del uso de recursos del sistema, como la CPU, la memoria y el disco. A diferencia de top, htop ofrece una interfaz más amigable y colorida, con opciones de navegación y filtrado más avanzadas.
+Cuando instalamoss el comando htop, se instalará junto al comando, una aplicación que podremos ejecutar desde la interfaz grágica.
+
+<p align="center">
+  <img src="/imagenes/htop icono.png" alt="Descripción de la imagen" width="400"/>
+</p>
+
+### **Opciones:**
+
+- **htop**
+ 
+Sin ninguna opción extra, obtemneos una interfaz interactiva que se actualiza periódicamente y nos muestra información detallada sobre los procesos en ejecución. 
+
+<p align="center">
+  <img src="/imagenes/htop.png" alt="Descripción de la imagen" width="400"/>
+</p>
+
+- **htop -u**
+
+Se utiliza para filtrar y mostrar solo los procesos que pertenecen a un usuario específico. Debemos proporcionar el nombre del usuario como argumento. Esto nos permite monitorear en tiempo real solo los procesos que pertenecen al usuario especificado.
+
+<p align="center">
+  <img src="/imagenes/htop -u.png" alt="Descripción de la imagen" width="400"/>
+</p>
+
+- **htop -p**
+
+Se utiliza para mostrar información detallada sobre procesos específicos, filtrados por el ID del proceso (PID) que especifiquemos. Debes proporcionar el PID como argumento. Esto nos permite monitorear en tiempo real solo los procesos que coinciden con el PID que especificamos.
+
+<p align="center">
+  <img src="/imagenes/htop -p 2928.png" alt="Descripción de la imagen" width="400"/>
+</p>
+
+- **htop -t**
+
+Se utiliza para mostrar la salida de htop en modo árbol, lo que significa que los procesos se organizan jerárquicamente según su relación padre-hijo. Esto nos permite ver la estructura de los procesos y cómo están relacionados entre sí.
+
+<p align="center">
+  <img src="/imagenes/htop -t.png" alt="Descripción de la imagen" width="400"/>
 </p>
