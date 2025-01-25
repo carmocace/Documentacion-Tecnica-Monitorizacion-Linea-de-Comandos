@@ -73,7 +73,7 @@
 - **free -v**
 
 <p align="center">
-  <img src="/imagenes/free -v.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/free3.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
 - **free -l**
@@ -128,4 +128,16 @@
 
 <p align="center">
   <img src="/imagenes/iostat.png" alt="Descripción de la imagen" width="500"/>
+</p>
+
+- **iostat uuid**
+
+<p align="center">
+  <img src="/imagenes/IOS UUID.png" alt="Descripción de la imagen" width="500"/>
+</p>
+
+- **iostat -n**
+
+<p align="center">
+  <img src="/imagenes/IOS -n.png" alt="Descripción de la imagen" width="500"/>
 </p>
