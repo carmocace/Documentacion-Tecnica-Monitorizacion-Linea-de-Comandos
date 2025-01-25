@@ -14,6 +14,12 @@ Si ejecutamos el comando df sin opciones extra, nos mostrará un resumen del uso
   <img src="/imagenes/df.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
+- **df --help**
+  
+<p align="center">
+  <img src="/imagenes/df-help.png" alt="Descripción de la imagen" width="500"/>
+</p>
+
 - **df -h**
 
 Se utiliza para mostrar el uso del espacio en disco en un formato legible para humanos. Nos proporciona información detallada sobre la cantidad de espacio total, usado y disponible en cada sistema de archivos, así como el porcentaje de uso, utilizando unidades como KB, MB o GB. Esto nos permite conocer el estado y la capacidad de almacenamiento en tiempo real de una manera más comprensible.
@@ -58,6 +64,12 @@ Ejecutanado el comando du sin opciones, nos mostrará el uso del espacio en disc
 
 <p align="center">
   <img src="/imagenes/du.png" alt="Descripción de la imagen" width="200"/>
+</p>
+
+- **du --help**
+
+<p align="center">
+  <img src="/imagenes/du-help.png" alt="Descripción de la imagen" width="200"/>
 </p>
 
 - **du -h**
