@@ -5,7 +5,7 @@
 ***La monitorización de la red es vital para asegurar una comunicación eficiente y detectar posibles problemas de conectividad o de rendimiento en el sistema. Al controlar el tráfico de red, podemos identificar cuellos de botella, conexiones no deseadas o problemas de latencia. En sistemas Linux, existen diversos comandos que permiten observar el estado de la red, el uso del ancho de banda y la actividad de las interfaces de red. En esta presentación, exploraremos algunos de los comandos más utilizados para monitorizar el tráfico de red y mantener una red saludable y eficiente.***
 
 <p align="center">
-  <img src="/imagenes/Sistema-de-Monitorización.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/red.jpg" alt="Descripción de la imagen" width="500"/>
 </p>
 
 ---
@@ -141,6 +141,12 @@
 
 <p align="center">
   <img src="/imagenes/band2.png" alt="Descripción de la imagen" width="500"/>
+</p> 
+
+---
+
+<p align="center">
+  <img src="/imagenes/redes2.jpg" alt="Descripción de la imagen" width="500"/>
 </p> 
 
 ---
