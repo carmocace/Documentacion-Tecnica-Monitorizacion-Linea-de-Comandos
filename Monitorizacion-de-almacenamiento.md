@@ -17,7 +17,7 @@ Si ejecutamos el comando df sin opciones extra, nos mostrará un resumen del uso
 - **df --help**
   
 <p align="center">
-  <img src="/imagenes/df-help.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/df help.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
 - **df -h**
@@ -69,7 +69,7 @@ Ejecutanado el comando du sin opciones, nos mostrará el uso del espacio en disc
 - **du --help**
 
 <p align="center">
-  <img src="/imagenes/du-help.png" alt="Descripción de la imagen" width="200"/>
+  <img src="/imagenes/du help.png" alt="Descripción de la imagen" width="200"/>
 </p>
 
 - **du -h**
