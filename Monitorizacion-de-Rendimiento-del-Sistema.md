@@ -1,4 +1,13 @@
-Comando sar
+# **Monitorización del Rendimiento**
+
+<p align="center">
+  <img src="/imagenes/ojo.jpg" alt="Descripción de la imagen" width="500"/>
+</p> 
+
+--
+- **Comando sar**
+
+  
 El comando sar se utiliza para monitorizar el rendimiento del sistema. Proporciona información detallada sobre el uso de la CPU, la memoria, las estadísticas de E/S de bloques, las estadísticas de red, la cola de carga, los dispositivos y el intercambio de memoria. Esto permite a los administradores de sistemas conocer el estado y el rendimiento del sistema en tiempo real.
 
 Si ejecutas el comando sar sin opciones, mostrará un resumen de las estadísticas del sistema desde el inicio del día hasta el momento actual. Esto incluye información sobre el uso de la CPU, la memoria, las estadísticas de E/S de bloques, las estadísticas de red, la cola de carga, los dispositivos y el intercambio de memoria. Esto permite a los administradores de sistemas conocer el estado y el rendimiento del sistema en tiempo real.
@@ -15,4 +24,12 @@ La opción -W se utiliza para mostrar estadísticas de intercambio de memoria. P
 -b: Se utiliza para mostrar estadísticas de E/S de bloques. Proporciona información detallada sobre las operaciones de lectura y escritura en los dispositivos de almacenamiento, permitiendo a los administradores de sistemas conocer el estado y el rendimiento de las operaciones de E/S en tiempo real.
 
 -n: Se utiliza para mostrar estadísticas de red. Proporciona información detallada sobre el tráfico de red y el rendimiento de los dispositivos de red, permitiendo a los administradores de sistemas conocer el estado y el rendimiento de la red en tiempo real.
+
+---
+
+<p align="center">
+  <img src="/imagenes/16.png" alt="Descripción de la imagen" width="500"/>
+</p> 
+
+---
 
