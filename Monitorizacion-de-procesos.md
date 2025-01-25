@@ -1,3 +1,5 @@
+
+---
 # **Monitorización de Procesos**
 
 ***La monitorización de procesos es crucial para gestionar de manera eficiente los recursos del sistema y garantizar que las aplicaciones se ejecuten correctamente. A través de esta práctica, podemos identificar qué procesos están consumiendo más recursos, como la CPU o la memoria, y tomar decisiones para optimizar el rendimiento.
