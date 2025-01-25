@@ -4,6 +4,10 @@
 
 ***La monitorización de almacenamiento es esencial para garantizar que los sistemas tengan suficiente espacio disponible y funcionen de manera eficiente. Al supervisar el uso del disco, podemos identificar problemas como la saturación del espacio o la presencia de archivos innecesarios que podrían afectar el rendimiento. En sistemas Linux, existen varias herramientas que permiten ver el estado de las particiones, el espacio libre y ocupado, y otros detalles importantes sobre el almacenamiento. En esta presentación, exploraremos algunos de los comandos más útiles para monitorizar el almacenamiento y gestionar de manera adecuada los recursos del disco.***
 
+<p align="center">
+  <img src="/imagenes/Documentacion-Tecnica-Monitorizacion-Linea-de-Comandos.png" alt="Descripción de la imagen" width="500"/>
+</p>
+
 ---
 ## **Comando DF**
 
