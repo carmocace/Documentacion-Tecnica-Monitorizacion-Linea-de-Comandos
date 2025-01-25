@@ -19,7 +19,7 @@ Si ejecutamos el comando df sin opciones extra, nos mostrará un resumen del uso
 Se utiliza para mostrar el uso del espacio en disco en un formato legible para humanos. Nos proporciona información detallada sobre la cantidad de espacio total, usado y disponible en cada sistema de archivos, así como el porcentaje de uso, utilizando unidades como KB, MB o GB. Esto nos permite conocer el estado y la capacidad de almacenamiento en tiempo real de una manera más comprensible.
 
 <p align="center">
-  <img src="/imagenes/df -h.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/df -h.png" alt="Descripción de la imagen" width="400"/>
 </p>
 
 - **df -l**
@@ -57,7 +57,7 @@ Se utiliza para estimar y mostrar el uso del espacio en disco de archivos y dire
 Ejecutanado el comando du sin opciones, nos mostrará el uso del espacio en disco de todos los archivos y directorios en el directorio actual y sus subdirectorios. Nos proporciona información detallada sobre la cantidad de espacio en disco utilizado por cada archivo y directorio especificado, permitiendo a los administradores de sistemas conocer el estado y la capacidad de almacenamiento en tiempo real.
 
 <p align="center">
-  <img src="/imagenes/du.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/du.png" alt="Descripción de la imagen" width="200"/>
 </p>
 
 - **du -h**
@@ -65,7 +65,7 @@ Ejecutanado el comando du sin opciones, nos mostrará el uso del espacio en disc
 Se utiliza para mostrar el uso del espacio en disco en un formato legible para humanos. Proporcionará información detallada sobre la cantidad de espacio en disco utilizado por cada archivo y directorio especificado, utilizando unidades como KB, MB o GB. Esto nos permite conocer el estado y la capacidad de almacenamiento de una manera más comprensible.
 
 <p align="center">
-  <img src="/imagenes/du -h.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/du -h.png" alt="Descripción de la imagen" width="200"/>
 </p>
 
 - **du -s**
@@ -73,7 +73,7 @@ Se utiliza para mostrar el uso del espacio en disco en un formato legible para h
 Se utiliza para mostrar el uso del espacio en disco de un directorio especificado y sus subdirectorios, proporcionando un resumen total. Esto nos permite conocer el estado y la capacidad de almacenamiento de un directorio específico en tiempo real.
 
 <p align="center">
-  <img src="/imagenes/du -s.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/du -s.png" alt="Descripción de la imagen" width="300"/>
 </p>
 
 - **du -c**
@@ -103,7 +103,7 @@ Nos mostrará un resumen del uso de la memoria en el sistema. Proporcionará inf
 Nos muestra una lista de todas las opciones disponibles para el comando free, junto con una breve descripción de cada una. Esto es útil para obtener una visión general de las capacidades del comando y cómo se pueden utilizar las diferentes opciones para obtener información específica sobre el uso de la memoria en el sistema.
  
 <p align="center">
-  <img src="/imagenes/free2.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/free2.png" alt="Descripción de la imagen" width="300"/>
 </p>
 
 - **free -v**
