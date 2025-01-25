@@ -1,16 +1,21 @@
 # **Monitorización de Procesos**
 
+***La monitorización de procesos es crucial para gestionar de manera eficiente los recursos del sistema y garantizar que las aplicaciones se ejecuten correctamente. A través de esta práctica, podemos identificar qué procesos están consumiendo más recursos, como la CPU o la memoria, y tomar decisiones para optimizar el rendimiento.
+En sistemas Linux, existen diversos comandos que permiten ver, controlar y analizar los procesos en ejecución. En esta presentación, exploraremos algunos de los comandos más utilizados para monitorizar y gestionar procesos de manera efectiva.***
+
 <p align="center">
   <img src="/imagenes/integracion_datos_monitorizacion_pic01_20240228_blog_equimed.jpg" alt="Descripción de la imagen" width="500"/>
 </p>
 
-
+---
 ## **Comando PS**
 
 El comando ps en Linux tiene muchas opciones útiles para mostrar información sobre los procesos en ejecución. Muestra una lista que incluye información básica sobre cada proceso, como el ID del proceso (PID), el terminal asociado (TTY), el tiempo de CPU utilizado (TIME) y el comando que inició el proceso (CMD).Algunas de las opciones más comunes son:
 
+---
 ### **Opciones:**
 
+---
 - **ps**
 
 El comando ps ejecutado sin ninguna opción extra muestra una lista de los procesos que están actualmente en ejecución en la terminal desde la cual se ejecutó el comando. 
@@ -91,12 +96,15 @@ se utiliza para personalizar la salida del comando ps, permitiéndonos especific
   <img src="/imagenes/10.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
+---
 ## **Comando TOP** 
 
-El comando top se utiliza para mostrar una lista dinámica y en tiempo real de los procesos que están actualmente en ejecución en el sistema. Proporciona una visión general del uso de la CPU, la memoria y otros recursos del sistema, permitiendo a los administradores de sistemas monitorear el rendimiento y la actividad del sistema en tiempo real.
+*El comando top se utiliza para mostrar una lista dinámica y en tiempo real de los procesos que están actualmente en ejecución en el sistema. Proporciona una visión general del uso de la CPU, la memoria y otros recursos del sistema, permitiendo a los administradores de sistemas monitorear el rendimiento y la actividad del sistema en tiempo real.*
 
+---
 ### **Opciones:**
 
+---
 - **top**
 
 Cuando ejecutamos el comando top sin ninguna opción extra, obtenemos una interfaz interactiva que se actualiza periódicamente y nos muestra información detallada sobre los procesos en ejecución.
@@ -155,12 +163,15 @@ Se utiliza para enviar una señal a un proceso específico, lo que generalmente 
   <img src="/imagenes/17kill.png" alt="Descripción de la imagen" width="400"/>
 </p>
 
+---
 ## **Comando ATOP**
 
-El comando atop es una herramienta avanzada de monitorización de sistemas que proporciona una visión detallada y en tiempo real del uso de recursos del sistema, como la CPU, la memoria, el disco y la red. A diferencia de otras herramientas de monitorización, atop puede registrar la actividad del sistema en intervalos regulares y guardar estos registros para su análisis posterior.
+*El comando atop es una herramienta avanzada de monitorización de sistemas que proporciona una visión detallada y en tiempo real del uso de recursos del sistema, como la CPU, la memoria, el disco y la red. A diferencia de otras herramientas de monitorización, atop puede registrar la actividad del sistema en intervalos regulares y guardar estos registros para su análisis posterior.*
 
+---
 ### **Opciones:**
 
+---
 - **atop**
 
 Sin ninguna opción extra, obtenemos una interfaz interactiva que se actualiza periódicamente y nos muestra información detallada sobre los procesos en ejecución y el uso de recursos del sistema.
@@ -243,17 +254,20 @@ Obtenemos una interfaz interactiva que se actualiza periódicamente y nos muestr
   <img src="/imagenes/atop -u.png" alt="Descripción de la imagen" width="400"/>
 </p>
 
+---
 ## **Comando HTOP**
 
-El comando htop es una herramienta interactiva de monitorización de procesos que proporciona una visión en tiempo real del uso de recursos del sistema, como la CPU, la memoria y el disco. A diferencia de top, htop ofrece una interfaz más amigable y colorida, con opciones de navegación y filtrado más avanzadas.
-Cuando instalamoss el comando htop, se instalará junto al comando, una aplicación que podremos ejecutar desde la interfaz grágica.
+*El comando htop es una herramienta interactiva de monitorización de procesos que proporciona una visión en tiempo real del uso de recursos del sistema, como la CPU, la memoria y el disco. A diferencia de top, htop ofrece una interfaz más amigable y colorida, con opciones de navegación y filtrado más avanzadas.
+Cuando instalamoss el comando htop, se instalará junto al comando, una aplicación que podremos ejecutar desde la interfaz grágica.*
 
 <p align="center">
   <img src="/imagenes/htop icono.png" alt="Descripción de la imagen" width="400"/>
 </p>
 
+---
 ### **Opciones:**
 
+---
 - **htop**
  
 Sin ninguna opción extra, obtemneos una interfaz interactiva que se actualiza periódicamente y nos muestra información detallada sobre los procesos en ejecución. 
