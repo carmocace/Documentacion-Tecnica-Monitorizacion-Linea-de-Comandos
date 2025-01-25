@@ -8,13 +8,15 @@ Se utiliza para mostrar el uso del espacio en disco en los sistemas de archivos 
 
 - **df**
 
+Si ejecutamos el comando df sin opciones extra, nos mostrará un resumen del uso del espacio en disco para todos los sistemas de archivos montados en tu sistema. Nos proporcionará información detallada sobre la cantidad de espacio total, usado y disponible en cada sistema de archivos, así como el punto de montaje correspondiente. Esto permite a los administradores de sistemas conocer el estado y la capacidad de almacenamiento de todos los sistemas de archivos en tiempo real.
+
 <p align="center">
   <img src="/imagenes/df.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
 - **df -h**
 
-se utiliza para mostrar el uso del espacio en disco en un formato legible para humanos. Proporciona información detallada sobre la cantidad de espacio total, usado y disponible en cada sistema de archivos, así como el porcentaje de uso, utilizando unidades como KB, MB o GB. Esto permite a los administradores de sistemas conocer el estado y la capacidad de almacenamiento en tiempo real de una manera más comprensible.
+Se utiliza para mostrar el uso del espacio en disco en un formato legible para humanos. Nos proporciona información detallada sobre la cantidad de espacio total, usado y disponible en cada sistema de archivos, así como el porcentaje de uso, utilizando unidades como KB, MB o GB. Esto nos permite conocer el estado y la capacidad de almacenamiento en tiempo real de una manera más comprensible.
 
 <p align="center">
   <img src="/imagenes/df -h.png" alt="Descripción de la imagen" width="500"/>
@@ -22,7 +24,7 @@ se utiliza para mostrar el uso del espacio en disco en un formato legible para h
 
 - **df -l**
 
-se utiliza para mostrar solo los sistemas de archivos locales. Proporciona información detallada sobre la cantidad de espacio total, usado y disponible en cada sistema de archivos local, así como el porcentaje de uso. Esto permite a los administradores de sistemas conocer el estado y la capacidad de almacenamiento de los sistemas de archivos locales en tiempo real.
+Se utiliza para mostrar solo los sistemas de archivos locales. Nos proporcionará información detallada sobre la cantidad de espacio total, usado y disponible en cada sistema de archivos local, así como el porcentaje de uso. Esto nos permite conocer el estado y la capacidad de almacenamiento de los sistemas de archivos locales en tiempo real.
 
 <p align="center">
   <img src="/imagenes/df -l.png" alt="Descripción de la imagen" width="500"/>
@@ -30,15 +32,15 @@ se utiliza para mostrar solo los sistemas de archivos locales. Proporciona infor
 
 - **df -T**
 
-se utiliza para mostrar solo los sistemas de archivos de un tipo específico. Proporciona información detallada sobre la cantidad de espacio total, usado y disponible en cada sistema de archivos del tipo especificado, así como el porcentaje de uso. Esto permite a los administradores de sistemas conocer el estado y la capacidad de almacenamiento de los sistemas de archivos de un tipo específico en tiempo real.
+Se utiliza para mostrar solo los sistemas de archivos de un tipo específico. Proporciona información detallada sobre la cantidad de espacio total, usado y disponible en cada sistema de archivos del tipo especificado, así como el porcentaje de uso. Esto permite a los administradores de sistemas conocer el estado y la capacidad de almacenamiento de los sistemas de archivos de un tipo específico en tiempo real.
 
 <p align="center">
   <img src="/imagenes/df -T.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
-- **df -x listen**
+- **df -x**
 
-La opción -x del comando df se utiliza para excluir sistemas de archivos de un tipo específico. Proporciona información detallada sobre la cantidad de espacio total, usado y disponible en cada sistema de archivos, excluyendo aquellos del tipo especificado, así como el porcentaje de uso. Esto permite a los administradores de sistemas conocer el estado y la capacidad de almacenamiento de los sistemas de archivos, excluyendo los tipos especificados, en tiempo real. Requiere que especifiquemos el tipo de sistema de archivos que deseas excluir
+La opción -x se utiliza para excluir sistemas de archivos de un tipo específico. Proporciona información detallada sobre la cantidad de espacio total, usado y disponible en cada sistema de archivos, excluyendo aquellos del tipo especificado, así como el porcentaje de uso. Esto permite a los administradores de sistemas conocer el estado y la capacidad de almacenamiento de los sistemas de archivos, excluyendo los tipos especificados, en tiempo real. Requiere que especifiquemos el tipo de sistema de archivos que deseas excluir
 
 <p align="center">
   <img src="/imagenes/df -x listen.png" alt="Descripción de la imagen" width="500"/>
@@ -46,13 +48,13 @@ La opción -x del comando df se utiliza para excluir sistemas de archivos de un 
 
 ## **Comando DU**
 
-se utiliza para estimar y mostrar el uso del espacio en disco de archivos y directorios. Proporciona información detallada sobre la cantidad de espacio en disco utilizado por cada archivo y directorio especificado, permitiendo a los administradores de sistemas conocer el estado y la capacidad de almacenamiento en tiempo real.
+Se utiliza para estimar y mostrar el uso del espacio en disco de archivos y directorios. Proporcionará información detallada sobre la cantidad de espacio en disco utilizado por cada archivo y directorio especificado, permite conocer el estado y la capacidad de almacenamiento en tiempo real.
 
 ### **Opciones**
 
 - **du**
 
-Si ejecutas el comando du sin opciones, mostrará el uso del espacio en disco de todos los archivos y directorios en el directorio actual y sus subdirectorios. Proporciona información detallada sobre la cantidad de espacio en disco utilizado por cada archivo y directorio especificado, permitiendo a los administradores de sistemas conocer el estado y la capacidad de almacenamiento en tiempo real.
+Ejecutanado el comando du sin opciones, nos mostrará el uso del espacio en disco de todos los archivos y directorios en el directorio actual y sus subdirectorios. Nos proporciona información detallada sobre la cantidad de espacio en disco utilizado por cada archivo y directorio especificado, permitiendo a los administradores de sistemas conocer el estado y la capacidad de almacenamiento en tiempo real.
 
 <p align="center">
   <img src="/imagenes/du.png" alt="Descripción de la imagen" width="500"/>
@@ -60,7 +62,7 @@ Si ejecutas el comando du sin opciones, mostrará el uso del espacio en disco de
 
 - **du -h**
 
-se utiliza para mostrar el uso del espacio en disco en un formato legible para humanos. Proporciona información detallada sobre la cantidad de espacio en disco utilizado por cada archivo y directorio especificado, utilizando unidades como KB, MB o GB. Esto permite a los administradores de sistemas conocer el estado y la capacidad de almacenamiento de una manera más comprensible.
+Se utiliza para mostrar el uso del espacio en disco en un formato legible para humanos. Proporcionará información detallada sobre la cantidad de espacio en disco utilizado por cada archivo y directorio especificado, utilizando unidades como KB, MB o GB. Esto nos permite conocer el estado y la capacidad de almacenamiento de una manera más comprensible.
 
 <p align="center">
   <img src="/imagenes/du -h.png" alt="Descripción de la imagen" width="500"/>
@@ -68,7 +70,7 @@ se utiliza para mostrar el uso del espacio en disco en un formato legible para h
 
 - **du -s**
 
-se utiliza para mostrar el uso del espacio en disco de un directorio especificado y sus subdirectorios, proporcionando un resumen total. Esto permite a los administradores de sistemas conocer el estado y la capacidad de almacenamiento de un directorio específico en tiempo real.
+Se utiliza para mostrar el uso del espacio en disco de un directorio especificado y sus subdirectorios, proporcionando un resumen total. Esto nos permite conocer el estado y la capacidad de almacenamiento de un directorio específico en tiempo real.
 
 <p align="center">
   <img src="/imagenes/du -s.png" alt="Descripción de la imagen" width="500"/>
@@ -76,7 +78,7 @@ se utiliza para mostrar el uso del espacio en disco de un directorio especificad
 
 - **du -c**
 
-se utiliza para mostrar un total general al final de la salida. Esto significa que, además de mostrar el uso del espacio en disco para cada archivo y directorio especificado, también proporcionará un resumen total del uso del espacio en disco al final de la lista. Esto es útil para obtener una visión general del uso total del espacio en disco en un directorio y sus subdirectorios.
+Se utiliza para mostrar un total general al final de la salida. Esto significa que, además de mostrar el uso del espacio en disco para cada archivo y directorio especificado, también proporcionará un resumen total del uso del espacio en disco al final de la lista. Esto es útil para obtener una visión general del uso total del espacio en disco en un directorio y sus subdirectorios.
 
 <p align="center">
   <img src="/imagenes/du -c.png" alt="Descripción de la imagen" width="500"/>
@@ -84,13 +86,13 @@ se utiliza para mostrar un total general al final de la salida. Esto significa q
 
 ## **Comando FREE**
 
-se utiliza para mostrar la cantidad de memoria libre y usada en el sistema, incluyendo la memoria física (RAM) y el espacio de intercambio (swap). Proporciona un resumen del uso de la memoria en tiempo real, permitiendo a los administradores de sistemas conocer el estado y el rendimiento de la memoria.
+Se utiliza para mostrar la cantidad de memoria libre y usada en el sistema, incluyendo la memoria física (RAM) y el espacio de intercambio (swap). Proporcionará un resumen del uso de la memoria en tiempo real, permitiendo a los administradores de sistemas conocer el estado y el rendimiento de la memoria.
 
 ### **Opciones**
 
 - **free**
 
-mostrará un resumen del uso de la memoria en el sistema. Proporciona información detallada sobre la cantidad de memoria total, usada, libre, compartida, en búferes y en caché, tanto para la memoria física (RAM) como para el espacio de intercambio (swap). Esto permite a los administradores de sistemas conocer el estado y el rendimiento de la memoria en tiempo real.
+Nos mostrará un resumen del uso de la memoria en el sistema. Proporcionará información detallada sobre la cantidad de memoria total, usada, libre, compartida, en búferes y en caché, tanto para la memoria física (RAM) como para el espacio de intercambio (swap). Esto permitirá conocer el estado y el rendimiento de la memoria en tiempo real.
 
 <p align="center">
   <img src="/imagenes/free.png" alt="Descripción de la imagen" width="500"/>
@@ -98,6 +100,7 @@ mostrará un resumen del uso de la memoria en el sistema. Proporciona informaci�
 
 - **free --help**
 
+Nos muestra una lista de todas las opciones disponibles para el comando free, junto con una breve descripción de cada una. Esto es útil para obtener una visión general de las capacidades del comando y cómo se pueden utilizar las diferentes opciones para obtener información específica sobre el uso de la memoria en el sistema.
  
 <p align="center">
   <img src="/imagenes/free2.png" alt="Descripción de la imagen" width="500"/>
@@ -114,7 +117,7 @@ Esta opción muestra una vista extendida de la información sobre la memoria. En
 
 - **free -l**
 
- se utiliza para mostrar información adicional sobre la memoria baja y la memoria alta del sistema.  Nos muestra una salida similar a la del comando free normal, pero incluye columnas adicionales para estas dos categorías de memoria
+Se utiliza para mostrar información adicional sobre la memoria baja y la memoria alta del sistema. Nos muestra una salida similar a la del comando free normal, pero incluye columnas adicionales para estas dos categorías de memoria
 
 <p align="center">
   <img src="/imagenes/free-l.png" alt="Descripción de la imagen" width="500"/>
@@ -122,7 +125,7 @@ Esta opción muestra una vista extendida de la información sobre la memoria. En
 
 - **free -t**
 
-se utiliza para mostrar un resumen del uso de la memoria, incluyendo la memoria física (RAM) y el espacio de intercambio (swap), con un total general al final de la salida. Esto permite a los administradores de sistemas obtener una visión general del uso total de la memoria en el sistema.
+Se utiliza para mostrar un resumen del uso de la memoria, incluyendo la memoria física (RAM) y el espacio de intercambio (swap), con un total general al final de la salida. Esto nos permite obtener una visión general del uso total de la memoria en el sistema.
  
 <p align="center">
   <img src="/imagenes/free-t.png" alt="Descripción de la imagen" width="500"/>
@@ -130,13 +133,13 @@ se utiliza para mostrar un resumen del uso de la memoria, incluyendo la memoria 
 
 ## **Comando IOSTAT**
 
-se utiliza para monitorear el rendimiento del sistema, específicamente el uso de la CPU y las estadísticas de entrada/salida de los dispositivos de almacenamiento. Proporciona información detallada sobre la carga de trabajo del sistema y el rendimiento de los dispositivos de almacenamiento, permitiendo a los administradores de sistemas identificar posibles cuellos de botella y optimizar el rendimiento.
+Se utiliza para monitorear el rendimiento del sistema, específicamente el uso de la CPU y las estadísticas de entrada/salida de los dispositivos de almacenamiento. Proporcionará información detallada sobre la carga de trabajo del sistema y el rendimiento de los dispositivos de almacenamiento, permitiendo a los administradores de sistemas identificar posibles cuellos de botella y optimizar el rendimiento.
 
 ### **Opciones**
 
 - **iostat**
 
-mostrará un resumen del uso de la CPU y las estadísticas de entrada/salida de los dispositivos de almacenamiento. Proporciona información detallada sobre la carga de trabajo del sistema y el rendimiento de los dispositivos de almacenamiento, permitiendo a los administradores de sistemas identificar posibles cuellos de botella y optimizar el rendimiento.
+Nos mostrará un resumen del uso de la CPU y las estadísticas de entrada/salida de los dispositivos de almacenamiento. Proporciona información detallada sobre la carga de trabajo del sistema y el rendimiento de los dispositivos de almacenamiento, permitiendo identificar posibles cuellos de botella y optimizar el rendimiento.
 
 <p align="center">
   <img src="/imagenes/iiostat.png" alt="Descripción de la imagen" width="500"/>
@@ -144,13 +147,15 @@ mostrará un resumen del uso de la CPU y las estadísticas de entrada/salida de 
 
 - **iostat --help**
 
+Nos muestra una lista de todas las opciones disponibles para el comando iostat, junto con una breve descripción de cada una. Esto es útil para obtener una visión general de las capacidades del comando y cómo se pueden utilizar las diferentes opciones para obtener información específica sobre el rendimiento del sistema y los dispositivos de almacenamiento.
+
 <p align="center">
   <img src="/imagenes/iostat2.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
 - **iostat -x**
 
-se utiliza para mostrar estadísticas detalladas de entrada/salida por dispositivo. Proporciona información más granular sobre el rendimiento de cada dispositivo de almacenamiento, incluyendo métricas como el tiempo de espera promedio, el tiempo de servicio promedio, el porcentaje de tiempo de utilización del dispositivo, entre otros. Esto permite a los administradores de sistemas identificar posibles cuellos de botella y optimizar el rendimiento de los dispositivos de almacenamiento de manera más efectiva.
+Se utiliza para mostrar estadísticas detalladas de entrada/salida por dispositivo. Proporciona información más granular sobre el rendimiento de cada dispositivo de almacenamiento, incluyendo métricas como el tiempo de espera promedio, el tiempo de servicio promedio, el porcentaje de tiempo de utilización del dispositivo, entre otros. Esto nos permite identificar posibles cuellos de botella y optimizar el rendimiento de los dispositivos de almacenamiento de manera más efectiva.
 
 <p align="center">
   <img src="/imagenes/iostat -x.png" alt="Descripción de la imagen" width="500"/>
@@ -158,7 +163,7 @@ se utiliza para mostrar estadísticas detalladas de entrada/salida por dispositi
 
 - **iostat -p**
 
-se utiliza para mostrar estadísticas de entrada/salida por partición. Proporciona información detallada sobre el rendimiento de cada partición de los dispositivos de almacenamiento, incluyendo métricas como el tiempo de espera promedio, el tiempo de servicio promedio, el porcentaje de tiempo de utilización de la partición, entre otros. Esto permite a los administradores de sistemas identificar posibles cuellos de botella y optimizar el rendimiento de las particiones de almacenamiento de manera más efectiva.
+Se utiliza para mostrar estadísticas de entrada/salida por partición. Proporciona información detallada sobre el rendimiento de cada partición de los dispositivos de almacenamiento, incluyendo métricas como el tiempo de espera promedio, el tiempo de servicio promedio, el porcentaje de tiempo de utilización de la partición, entre otros. Esto permitirá identificar posibles cuellos de botella y optimizar el rendimiento de las particiones de almacenamiento de manera más efectiva.
 
 <p align="center">
   <img src="/imagenes/ios -p.png" alt="Descripción de la imagen" width="500"/>
@@ -166,15 +171,15 @@ se utiliza para mostrar estadísticas de entrada/salida por partición. Proporci
 
 - **iostat -d**
 
-se utiliza para mostrar estadísticas de entrada/salida por dispositivo. Proporciona información detallada sobre el rendimiento de cada dispositivo de almacenamiento, incluyendo métricas como el tiempo de espera promedio, el tiempo de servicio promedio, el porcentaje de tiempo de utilización del dispositivo, entre otros. Esto permite a los administradores de sistemas identificar posibles cuellos de botella y optimizar el rendimiento de los dispositivos de almacenamiento de manera más efectiva.
+Se utiliza para mostrar estadísticas de entrada/salida por dispositivo. Proporciona información detallada sobre el rendimiento de cada dispositivo de almacenamiento, incluyendo métricas como el tiempo de espera promedio, el tiempo de servicio promedio, el porcentaje de tiempo de utilización del dispositivo, entre otros. Nos permite identificar posibles cuellos de botella y optimizar el rendimiento de los dispositivos de almacenamiento de manera más efectiva.
 
 <p align="center">
-  <img src="/imagenes/iostat.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/ios-d.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
 - **iostat -N**
 
-sirve para mostrar el nombre completo de los dispositivos gestionados por el sistema, incluyendo la información de los volúmenes lógicos si estos están configurados en el sistema (por ejemplo, con LVM).
+Sirve para mostrar el nombre completo de los dispositivos gestionados por el sistema, incluyendo la información de los volúmenes lógicos si estos están configurados en el sistema (por ejemplo, con LVM).
 
 Cuando no se usa -N, es posible que el comando solo muestre nombres de dispositivos más cortos o abreviados, como /dev/sda, en lugar de los nombres completos o los asociados a LVM, como /dev/mapper/volumen-logico. Es útil en escenarios donde estás trabajando con sistemas que usan LVM (Logical Volume Manager) o si necesitas identificar dispositivos en volúmenes complejos o RAID.
 
@@ -184,7 +189,7 @@ Cuando no se usa -N, es posible que el comando solo muestre nombres de dispositi
 
 - **iostat -c**
 
--c del comando iostat se utiliza para mostrar estadísticas de la CPU. Proporciona información detallada sobre el uso de la CPU, incluyendo métricas como el porcentaje de tiempo que la CPU está inactiva, el porcentaje de tiempo que la CPU está ocupada en modo de usuario, el porcentaje de tiempo que la CPU está ocupada en modo de sistema, entre otros. Esto permite a los administradores de sistemas identificar posibles cuellos de botella y optimizar el rendimiento de la CPU de manera más efectiva.
+Se utiliza para mostrar estadísticas de la CPU. Proporcionará información detallada sobre el uso de la CPU, incluyendo métricas como el porcentaje de tiempo que la CPU está inactiva, el porcentaje de tiempo que la CPU está ocupada en modo de usuario, el porcentaje de tiempo que la CPU está ocupada en modo de sistema, entre otros. Esto nos permite identificar posibles cuellos de botella y optimizar el rendimiento de la CPU de manera más efectiva.
 
 <p align="center">
   <img src="/imagenes/ios-c.png" alt="Descripción de la imagen" width="500"/>
