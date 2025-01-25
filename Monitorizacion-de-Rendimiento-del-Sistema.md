@@ -1,29 +1,35 @@
 # **Monitorización del Rendimiento**
 
+---
+***La monitorización del rendimiento es fundamental para garantizar la eficiencia y estabilidad de los sistemas informáticos. Esta práctica permite identificar el uso de recursos como la CPU, la memoria, el disco y la red, ayudando a detectar cuellos de botella y optimizar procesos. En sistemas Linux, existen herramientas de línea de comandos que proporcionan datos en tiempo real sobre el rendimiento general del sistema. En esta presentación, exploraremos algunos de los comandos más utilizados para analizar y mejorar el rendimiento, asegurando un funcionamiento óptimo del sistema.***
+
 <p align="center">
   <img src="/imagenes/ojo.jpg" alt="Descripción de la imagen" width="500"/>
 </p> 
 
---
-- **Comando sar**
+---
+## **Comando SAR**
+ 
+Se utiliza para monitorizar el rendimiento del sistema. Proporciona información detallada sobre el uso de la CPU, la memoria, las estadísticas de E/S de bloques, las estadísticas de red, la cola de carga, los dispositivos y el intercambio de memoria. Esto nos permite conocer el estado y el rendimiento del sistema en tiempo real.
 
-  
-El comando sar se utiliza para monitorizar el rendimiento del sistema. Proporciona información detallada sobre el uso de la CPU, la memoria, las estadísticas de E/S de bloques, las estadísticas de red, la cola de carga, los dispositivos y el intercambio de memoria. Esto permite a los administradores de sistemas conocer el estado y el rendimiento del sistema en tiempo real.
+---
+- **sar**
 
-Si ejecutas el comando sar sin opciones, mostrará un resumen de las estadísticas del sistema desde el inicio del día hasta el momento actual. Esto incluye información sobre el uso de la CPU, la memoria, las estadísticas de E/S de bloques, las estadísticas de red, la cola de carga, los dispositivos y el intercambio de memoria. Esto permite a los administradores de sistemas conocer el estado y el rendimiento del sistema en tiempo real.
+Nos mostrará un resumen de las estadísticas del sistema desde el inicio del día hasta el momento actual. Esto incluye información sobre el uso de la CPU, la memoria, las estadísticas de E/S de bloques, las estadísticas de red, la cola de carga, los dispositivos y el intercambio de memoria. Esto nos permitirá conocer el estado y el rendimiento del sistema en tiempo real.
 
-La opción -u se utiliza para mostrar el uso de la CPU. Proporciona información detallada sobre el porcentaje de tiempo que la CPU está en uso, en espera, inactiva, y otros estados. Esto permite a los administradores de sistemas conocer el estado y el rendimiento de la CPU en tiempo real.
+<p align="center">
+  <img src="/imagenes/sar.png" alt="Descripción de la imagen" width="500"/>
+</p> 
 
-La opción -r se utiliza para mostrar el uso de la memoria. Proporciona información detallada sobre la cantidad de memoria libre y usada en el sistema, permitiendo a los administradores de sistemas conocer el estado y el rendimiento de la memoria en tiempo real.
+- **sar-help**
 
-- W
-La opción -W se utiliza para mostrar estadísticas de intercambio de memoria. Proporciona información detallada sobre la cantidad de memoria que se ha intercambiado entre la memoria física y el espacio de intercambio (swap). Esto permite a los administradores de sistemas conocer el estado y el rendimiento del intercambio de memoria en tiempo real.
+Nos muestra un resumen de las opciones disponibles y una breve descripción de cada una, que ayuda al usuario a entender cómo utilizar el comando.
 
--P. Esta opción se utiliza para mostrar estadísticas de la CPU por procesador individual. Proporciona información detallada sobre el uso de cada procesador en el sistema, permitiendo a los administradores de sistemas conocer el estado y el rendimiento de cada CPU en tiempo real.
+<p align="center">
+  <img src="/imagenes/sar-help.png" alt="Descripción de la imagen" width="500"/>
+</p> 
 
--b: Se utiliza para mostrar estadísticas de E/S de bloques. Proporciona información detallada sobre las operaciones de lectura y escritura en los dispositivos de almacenamiento, permitiendo a los administradores de sistemas conocer el estado y el rendimiento de las operaciones de E/S en tiempo real.
 
--n: Se utiliza para mostrar estadísticas de red. Proporciona información detallada sobre el tráfico de red y el rendimiento de los dispositivos de red, permitiendo a los administradores de sistemas conocer el estado y el rendimiento de la red en tiempo real.
 
 ---
 
