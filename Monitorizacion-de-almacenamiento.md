@@ -1,10 +1,11 @@
 # **Monitorizacion de almacenamiento**
 
+---
 ## **Comando DF**
 
 *Se utiliza para mostrar el uso del espacio en disco en los sistemas de archivos montados. Proporciona información detallada sobre la cantidad de espacio total, usado y disponible en cada sistema de archivos, así como el porcentaje de uso. Esto nos permite conocer el estado y la capacidad de almacenamiento en tiempo real.*
-
-### **Opciones**
+---
+### **Opciones:**
 
 - **df**
 
@@ -54,10 +55,11 @@ La opción -x se utiliza para excluir sistemas de archivos de un tipo específic
   <img src="/imagenes/df -x listen.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
+---
 ## **Comando DU**
 
 *Se utiliza para estimar y mostrar el uso del espacio en disco de archivos y directorios. Proporcionará información detallada sobre la cantidad de espacio en disco utilizado por cada archivo y directorio especificado, permite conocer el estado y la capacidad de almacenamiento en tiempo real.*
-
+---
 ### **Opciones**
 
 - **du**
@@ -100,10 +102,11 @@ Se utiliza para mostrar un total general al final de la salida. Esto significa q
   <img src="/imagenes/du-c.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
+---
 ## **Comando FREE**
 
 *Se utiliza para mostrar la cantidad de memoria libre y usada en el sistema, incluyendo la memoria física (RAM) y el espacio de intercambio (swap). Proporcionará un resumen del uso de la memoria en tiempo real, permitiendo a los administradores de sistemas conocer el estado y el rendimiento de la memoria.*
-
+---
 ### **Opciones**
 
 - **free**
@@ -147,10 +150,11 @@ Se utiliza para mostrar un resumen del uso de la memoria, incluyendo la memoria 
   <img src="/imagenes/free-t.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
+---
 ## **Comando IOSTAT**
 
 *Se utiliza para monitorear el rendimiento del sistema, específicamente el uso de la CPU y las estadísticas de entrada/salida de los dispositivos de almacenamiento. Proporcionará información detallada sobre la carga de trabajo del sistema y el rendimiento de los dispositivos de almacenamiento, permitiendo a los administradores de sistemas identificar posibles cuellos de botella y optimizar el rendimiento.*
-
+---
 ### **Opciones**
 
 - **iostat**
@@ -210,3 +214,4 @@ Se utiliza para mostrar estadísticas de la CPU. Proporcionará información det
 <p align="center">
   <img src="/imagenes/ios-c.png" alt="Descripción de la imagen" width="500"/>
 </p>
+---
