@@ -78,6 +78,10 @@ se utiliza para mostrar el uso del espacio en disco de un directorio especificad
 
 se utiliza para mostrar un total general al final de la salida. Esto significa que, además de mostrar el uso del espacio en disco para cada archivo y directorio especificado, también proporcionará un resumen total del uso del espacio en disco al final de la lista. Esto es útil para obtener una visión general del uso total del espacio en disco en un directorio y sus subdirectorios.
 
+<p align="center">
+  <img src="/imagenes/du -c.png" alt="Descripción de la imagen" width="500"/>
+</p>
+
 ## **Comando FREE**
 
 se utiliza para mostrar la cantidad de memoria libre y usada en el sistema, incluyendo la memoria física (RAM) y el espacio de intercambio (swap). Proporciona un resumen del uso de la memoria en tiempo real, permitiendo a los administradores de sistemas conocer el estado y el rendimiento de la memoria.
@@ -92,7 +96,7 @@ mostrará un resumen del uso de la memoria en el sistema. Proporciona informaci�
   <img src="/imagenes/free.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
-- **free -help**
+- **free --help**
 
  
 <p align="center">
@@ -105,7 +109,7 @@ Esta opción muestra una vista extendida de la información sobre la memoria. En
 
 
 <p align="center">
-  <img src="/imagenes/free3.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/free-v.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
 - **free -l**
@@ -113,7 +117,7 @@ Esta opción muestra una vista extendida de la información sobre la memoria. En
  se utiliza para mostrar información adicional sobre la memoria baja y la memoria alta del sistema.  Nos muestra una salida similar a la del comando free normal, pero incluye columnas adicionales para estas dos categorías de memoria
 
 <p align="center">
-  <img src="/imagenes/free.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/free-l.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
 - **free -t**
@@ -121,7 +125,7 @@ Esta opción muestra una vista extendida de la información sobre la memoria. En
 se utiliza para mostrar un resumen del uso de la memoria, incluyendo la memoria física (RAM) y el espacio de intercambio (swap), con un total general al final de la salida. Esto permite a los administradores de sistemas obtener una visión general del uso total de la memoria en el sistema.
  
 <p align="center">
-  <img src="/imagenes/free3.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/free-t.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
 ## **Comando IOSTAT**
@@ -136,6 +140,12 @@ mostrará un resumen del uso de la CPU y las estadísticas de entrada/salida de 
 
 <p align="center">
   <img src="/imagenes/iiostat.png" alt="Descripción de la imagen" width="500"/>
+</p>
+
+- **iostat --help**
+
+<p align="center">
+  <img src="/imagenes/iostat2.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
 - **iostat -x**
@@ -154,12 +164,6 @@ se utiliza para mostrar estadísticas de entrada/salida por partición. Proporci
   <img src="/imagenes/ios -p.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
-- **iostat**
-
-<p align="center">
-  <img src="/imagenes/iostat2.png" alt="Descripción de la imagen" width="500"/>
-</p>
-
 - **iostat -d**
 
 se utiliza para mostrar estadísticas de entrada/salida por dispositivo. Proporciona información detallada sobre el rendimiento de cada dispositivo de almacenamiento, incluyendo métricas como el tiempo de espera promedio, el tiempo de servicio promedio, el porcentaje de tiempo de utilización del dispositivo, entre otros. Esto permite a los administradores de sistemas identificar posibles cuellos de botella y optimizar el rendimiento de los dispositivos de almacenamiento de manera más efectiva.
@@ -168,7 +172,7 @@ se utiliza para mostrar estadísticas de entrada/salida por dispositivo. Proporc
   <img src="/imagenes/iostat.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
-- **iostat -n**
+- **iostat -N**
 
 sirve para mostrar el nombre completo de los dispositivos gestionados por el sistema, incluyendo la información de los volúmenes lógicos si estos están configurados en el sistema (por ejemplo, con LVM).
 
@@ -182,3 +186,6 @@ Cuando no se usa -N, es posible que el comando solo muestre nombres de dispositi
 
 -c del comando iostat se utiliza para mostrar estadísticas de la CPU. Proporciona información detallada sobre el uso de la CPU, incluyendo métricas como el porcentaje de tiempo que la CPU está inactiva, el porcentaje de tiempo que la CPU está ocupada en modo de usuario, el porcentaje de tiempo que la CPU está ocupada en modo de sistema, entre otros. Esto permite a los administradores de sistemas identificar posibles cuellos de botella y optimizar el rendimiento de la CPU de manera más efectiva.
 
+<p align="center">
+  <img src="/imagenes/ios-c.png" alt="Descripción de la imagen" width="500"/>
+</p>
