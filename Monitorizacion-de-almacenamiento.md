@@ -1,12 +1,18 @@
+
+---
 # **Monitorizacion de almacenamiento**
+
+***La monitorización de almacenamiento es esencial para garantizar que los sistemas tengan suficiente espacio disponible y funcionen de manera eficiente. Al supervisar el uso del disco, podemos identificar problemas como la saturación del espacio o la presencia de archivos innecesarios que podrían afectar el rendimiento. En sistemas Linux, existen varias herramientas que permiten ver el estado de las particiones, el espacio libre y ocupado, y otros detalles importantes sobre el almacenamiento. En esta presentación, exploraremos algunos de los comandos más útiles para monitorizar el almacenamiento y gestionar de manera adecuada los recursos del disco.***
 
 ---
 ## **Comando DF**
 
 *Se utiliza para mostrar el uso del espacio en disco en los sistemas de archivos montados. Proporciona información detallada sobre la cantidad de espacio total, usado y disponible en cada sistema de archivos, así como el porcentaje de uso. Esto nos permite conocer el estado y la capacidad de almacenamiento en tiempo real.*
+
 ---
 ### **Opciones:**
 
+---
 - **df**
 
 Si ejecutamos el comando df sin opciones extra, nos mostrará un resumen del uso del espacio en disco para todos los sistemas de archivos montados en tu sistema. Nos proporcionará información detallada sobre la cantidad de espacio total, usado y disponible en cada sistema de archivos, así como el punto de montaje correspondiente. Esto permite a los administradores de sistemas conocer el estado y la capacidad de almacenamiento de todos los sistemas de archivos en tiempo real.
@@ -59,9 +65,11 @@ La opción -x se utiliza para excluir sistemas de archivos de un tipo específic
 ## **Comando DU**
 
 *Se utiliza para estimar y mostrar el uso del espacio en disco de archivos y directorios. Proporcionará información detallada sobre la cantidad de espacio en disco utilizado por cada archivo y directorio especificado, permite conocer el estado y la capacidad de almacenamiento en tiempo real.*
+
 ---
 ### **Opciones**
 
+---
 - **du**
 
 Ejecutanado el comando du sin opciones, nos mostrará el uso del espacio en disco de todos los archivos y directorios en el directorio actual y sus subdirectorios. Nos proporciona información detallada sobre la cantidad de espacio en disco utilizado por cada archivo y directorio especificado, permitiendo a los administradores de sistemas conocer el estado y la capacidad de almacenamiento en tiempo real.
@@ -106,9 +114,11 @@ Se utiliza para mostrar un total general al final de la salida. Esto significa q
 ## **Comando FREE**
 
 *Se utiliza para mostrar la cantidad de memoria libre y usada en el sistema, incluyendo la memoria física (RAM) y el espacio de intercambio (swap). Proporcionará un resumen del uso de la memoria en tiempo real, permitiendo a los administradores de sistemas conocer el estado y el rendimiento de la memoria.*
+
 ---
 ### **Opciones**
 
+---
 - **free**
 
 Nos mostrará un resumen del uso de la memoria en el sistema. Proporcionará información detallada sobre la cantidad de memoria total, usada, libre, compartida, en búferes y en caché, tanto para la memoria física (RAM) como para el espacio de intercambio (swap). Esto permitirá conocer el estado y el rendimiento de la memoria en tiempo real.
@@ -154,9 +164,11 @@ Se utiliza para mostrar un resumen del uso de la memoria, incluyendo la memoria 
 ## **Comando IOSTAT**
 
 *Se utiliza para monitorear el rendimiento del sistema, específicamente el uso de la CPU y las estadísticas de entrada/salida de los dispositivos de almacenamiento. Proporcionará información detallada sobre la carga de trabajo del sistema y el rendimiento de los dispositivos de almacenamiento, permitiendo a los administradores de sistemas identificar posibles cuellos de botella y optimizar el rendimiento.*
+
 ---
 ### **Opciones**
 
+---
 - **iostat**
 
 Nos mostrará un resumen del uso de la CPU y las estadísticas de entrada/salida de los dispositivos de almacenamiento. Proporciona información detallada sobre la carga de trabajo del sistema y el rendimiento de los dispositivos de almacenamiento, permitiendo identificar posibles cuellos de botella y optimizar el rendimiento.
