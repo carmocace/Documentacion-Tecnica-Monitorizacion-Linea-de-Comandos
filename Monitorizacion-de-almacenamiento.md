@@ -232,3 +232,9 @@ Se utiliza para mostrar estadísticas de la CPU. Proporcionará información det
 </p>
 
 ---
+
+<p align="center">
+  <img src="/imagenes/mon.png" alt="Descripción de la imagen" width="500"/>
+</p> 
+
+---
