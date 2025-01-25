@@ -1,9 +1,20 @@
+
+---
 # **Monitorizacion de la Red**
 
+***La monitorización de la red es vital para asegurar una comunicación eficiente y detectar posibles problemas de conectividad o de rendimiento en el sistema. Al controlar el tráfico de red, podemos identificar cuellos de botella, conexiones no deseadas o problemas de latencia. En sistemas Linux, existen diversos comandos que permiten observar el estado de la red, el uso del ancho de banda y la actividad de las interfaces de red. En esta presentación, exploraremos algunos de los comandos más utilizados para monitorizar el tráfico de red y mantener una red saludable y eficiente.***
+
+<p align="center">
+  <img src="/imagenes/Sistema-de-Monitorización.png" alt="Descripción de la imagen" width="500"/>
+</p>
+
+---
 ## **Comando NETSTAT**
 
+---
 ### **Opciones**
 
+---
 - **netstat**
 
 <p align="center">
@@ -40,10 +51,14 @@
   <img src="/imagenes/netsatat2.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
+---
 ## **Comando TCPDUMP**
 
+
+---
 ### **Opciones**
 
+---
 - **tcpdump**
 
  <p align="center">
@@ -68,10 +83,14 @@
   <img src="/imagenes/tcpdump -Z.png" alt="Descripción de la imagen" width="500"/>
 </p> 
 
+---
 ## **Comando TCPTRACK**
 
+
+---
 ### **Opciones**
 
+---
 - **tcptrack**
 
  <p align="center">
@@ -88,11 +107,13 @@
   <img src="/imagenes/tcptrack.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
-
+---
 ## **Comando IPTRAF**
 
+---
 ### **Opciones**
 
+---
 - **iptraf --help**
 
 <p align="center">
@@ -105,10 +126,13 @@
   <img src="/imagenes/iptraf-ng.png" alt="Descripción de la imagen" width="500"/>
 </p> 
 
+---
 ## **Comando Bandwithd**
 
+---
 ### **Opciones**
 
+---
 - **bandwithd**
 
 <p align="center">
@@ -118,3 +142,5 @@
 <p align="center">
   <img src="/imagenes/band2.png" alt="Descripción de la imagen" width="500"/>
 </p> 
+
+---
