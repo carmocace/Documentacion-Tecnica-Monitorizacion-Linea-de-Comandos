@@ -214,4 +214,5 @@ Se utiliza para mostrar estadísticas de la CPU. Proporcionará información det
 <p align="center">
   <img src="/imagenes/ios-c.png" alt="Descripción de la imagen" width="500"/>
 </p>
+
 ---
