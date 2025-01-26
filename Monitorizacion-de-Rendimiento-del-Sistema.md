@@ -196,6 +196,6 @@ Las opciones permiten personalizar qué módulos o métricas se desean mostrar, 
 
 ---
 <p align="center">
-  <img src="/imagenes/ad.png" alt="Descripción de la imagen" width="300"/>
+  <img src="/imagenes/ren.jpg" alt="Descripción de la imagen" width="500"/>
 </p> 
 
