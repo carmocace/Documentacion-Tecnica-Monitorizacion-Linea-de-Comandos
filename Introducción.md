@@ -80,5 +80,5 @@ A través de diversas herramientas, es posible analizar los procesos, el almacen
       <img src="/imagenes/nagios.jpg" alt="Descripción de la imagen" width="300"/>
     </p>
 
-Este trabajo se organiza en tres apartados: la monitorización de procesos, de almacenamiento y de red. Cada sección detallará los comandos esenciales y sus opciones clave, así como ejemplos gráficos (Capturas de Pantalla) de las respuestas de estos al ser ejecutados.
+Este trabajo se organiza en cuatro apartados: la monitorización de rendimiento, de procesos, de almacenamiento y de red. Cada sección detallará los comandos esenciales y sus opciones clave, así como ejemplos gráficos (Capturas de Pantalla) de las respuestas de estos al ser ejecutados.
 
