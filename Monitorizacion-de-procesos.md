@@ -305,7 +305,7 @@ Se utiliza para mostrar la salida de htop en modo árbol, lo que significa que l
 ---
 
 <p align="center">
-  <img src="/imagenes/Monitorizacion-de-sistemas.png" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/ojo.jpg" alt="Descripción de la imagen" width="500"/>
 </p> 
 
 ---
