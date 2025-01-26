@@ -1,4 +1,4 @@
-# **Monitorización del Rendimiento**
+# **Monitorización de Rendimiento del Sistema**
 
 ---
 ***La monitorización del rendimiento es fundamental para garantizar la eficiencia y estabilidad de los sistemas informáticos. Esta práctica permite identificar el uso de recursos como la CPU, la memoria, el disco y la red, ayudando a detectar cuellos de botella y optimizar procesos. En sistemas Linux, existen herramientas de línea de comandos que proporcionan datos en tiempo real sobre el rendimiento general del sistema. En esta presentación, exploraremos algunos de los comandos más utilizados para analizar y mejorar el rendimiento, asegurando un funcionamiento óptimo del sistema.***
