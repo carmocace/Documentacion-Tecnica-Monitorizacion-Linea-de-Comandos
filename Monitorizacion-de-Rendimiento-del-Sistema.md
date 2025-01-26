@@ -61,20 +61,6 @@ Obtendremos un desglose detallado del uso de la memoria en el sistema. Nos mostr
 Nos muestra una lista de todas las opciones disponibles para el comando smem, junto con una breve descripción de cada una. Esto es útil para obtener una visión general de las capacidades del comando, que se centra en mostrar el uso de memoria por procesos en el sistema. Entre las opciones, se incluyen formas de personalizar la salida, como ordenar los resultados, seleccionar columnas específicas, cambiar la unidad de medida (kilobytes, megabytes, etc.) y mostrar gráficos de uso. Esto permite analizar de manera precisa cómo se distribuye y utiliza la memoria en el sistema.
 
 ---
-## **Comando BMON**
-
-Es una herramienta de monitoreo y depuración de red basada en texto para sistemas tipo Unix. Captura estadísticas relacionadas con la red y las muestra visualmente en un formato amigable en tiempo real2. Es útil para controlar el ancho de banda y detectar posibles problemas en la red.
-
----
-- **bmon**
-
-Sin opciones, obtendremos una visualización en tiempo real del rendimiento de la red. Nos muestra información sobre el tráfico de red, el ancho de banda utilizado, las tasas de transferencia y otros datos relevantes para cada interfaz de red. Es una herramienta muy útil para quienes necesitan monitorear y depurar problemas de red de manera eficiente.
-
-- **bmon --help**
-
-Nos muestra una lista de todas las opciones disponibles para el comando, junto con una breve descripción de cada una. Se utiliza para monitorizar en tiempo real el tráfico de red en el sistema, proporcionando información detallada sobre las interfaces de red y el uso del ancho de banda. Las opciones disponibles permiten personalizar la visualización, como elegir entre diferentes salidas (texto o gráficos), filtrar interfaces específicas, ajustar los intervalos de actualización, y definir las unidades de medida. Esta ayuda es ideal para configurar bmon según las necesidades de monitorización de red del usuario.
-
----
 ## **  Comando MPSTAT**
 
 se utiliza para informar sobre las estadísticas de la CPU. Proporciona información detallada sobre el uso de la CPU, incluyendo métricas como el porcentaje de tiempo que la CPU está inactiva, el porcentaje de tiempo que la CPU está ocupada en modo de usuario, el porcentaje de tiempo que la CPU está ocupada en modo de sistema, entre otros. Esto permite a los administradores de sistemas identificar posibles cuellos de botella y optimizar el rendimiento de la CPU de manera más efectiva.
