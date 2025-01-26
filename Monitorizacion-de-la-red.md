@@ -11,11 +11,15 @@
 ---
 ## **Comando NETSTAT**
 
+Se utiliza para mostrar estadísticas de red y conexiones de red en el sistema. Proporciona información detallada sobre las conexiones de red activas, las tablas de enrutamiento, las interfaces de red y las estadísticas de protocolo. Es una herramienta muy útil para los administradores de sistemas que necesitan monitorear y depurar problemas de red de manera eficiente.
+
 ---
 ### **Opciones**
 
 ---
 - **netstat**
+
+Obtendremos una lista de todas las conexiones de red activas en nuestro sistema. Esto incluye información sobre las conexiones TCP y UDP, las direcciones IP de origen y destino, los puertos y el estado de la conexión.
 
 <p align="center">
   <img src="/imagenes/netstat.png" alt="Descripción de la imagen" width="500"/>
@@ -54,12 +58,15 @@
 ---
 ## **Comando TCPDUMP**
 
+Es una herramienta de captura de paquetes que se utiliza para analizar el tráfico de red. Nos permite capturar y mostrar los paquetes que se transmiten o reciben a través de una red, proporcionando información detallada sobre el contenido de los paquetes, las direcciones IP de origen y destino, los puertos y otros datos relevantes. Es una herramienta muy útil para los administradores de sistemas y los profesionales de seguridad que necesitan monitorear y analizar el tráfico de red para detectar problemas o posibles amenazas.
 
 ---
 ### **Opciones**
 
 ---
 - **tcpdump**
+
+Ejecutandolo sin opciones, obtendremos una captura de todos los paquetes que se transmiten o reciben a través de la red en el sistema. Esto incluye información detallada sobre el contenido de los paquetes, las direcciones IP de origen y destino, los puertos y otros datos relevantes.
 
  <p align="center">
   <img src="/imagenes/tcpdump.png" alt="Descripción de la imagen" width="500"/>
@@ -86,12 +93,15 @@
 ---
 ## **Comando TCPTRACK**
 
+Es una herramienta de monitoreo de conexiones TCP en tiempo real. Muestra información sobre las conexiones TCP activas en el sistema, incluyendo el estado de la conexión, la dirección IP de origen y destino, y la cantidad de datos transferidos. Es útil para monitorear y depurar problemas de red de manera eficiente.
 
 ---
 ### **Opciones**
 
 ---
 - **tcptrack**
+
+Ejecutado sin opciones, obtendremos una visualización en tiempo real de las conexiones TCP activas en nuestro sistema. Nos mostrará información sobre el estado de la conexión, la dirección IP de origen y destino, y la cantidad de datos transferidos.
 
  <p align="center">
   <img src="/imagenes/tcptrack.png" alt="Descripción de la imagen" width="500"/>
@@ -106,6 +116,8 @@
 ---
 ## **Comando IPTRAF**
 
+Es una herramienta de monitoreo de red en tiempo real que proporciona estadísticas detalladas sobre el tráfico de red. Muestra información sobre las conexiones TCP, UDP, ICMP y otros protocolos, así como estadísticas de tráfico por interfaz de red. Es especialmente útil para los administradores de sistemas que necesitan monitorear y analizar el tráfico de red para detectar problemas o posibles amenazas.
+
 ---
 ### **Opciones**
 
@@ -117,6 +129,20 @@
 </p> 
 
 - **iptraf -ng**
+
+IPTraf-NG (Next Generation), es una versión mejorada de la herramienta IPTraf, que proporciona estadísticas detalladas sobre el tráfico de red en tiempo real. Esta herramienta basada en la consola permite monitorear y analizar el tráfico de red de manera eficiente. Algunas de las características de IPTraf-NG incluyen:
+
+1.- Monitor de tráfico IP que muestra información detallada sobre el tráfico que circula por la red.
+
+2.- Estadísticas detalladas sobre los paquetes IP, TCP, UDP, ICMP y otros protocolos.
+
+3.- Monitor de paquetes entrantes y salientes en los puertos comunes de ciertas aplicaciones.
+
+4.- Módulo de estadísticas para la red local que muestra los hosts activos y la actividad de los datos.
+
+5.- Filtros para mostrar solo conexiones por TCP, UDP y otros protocolos.
+
+6.- Soporte para interfaces Ethernet, SLIP, PPP y otras
 
 <p align="center">
   <img src="/imagenes/iptraf-ng.png" alt="Descripción de la imagen" width="500"/>
@@ -195,6 +221,8 @@ se utiliza para verificar la conectividad de red entre dos dispositivos. Envía 
 
 ---
 - **ping -c**
+
+La opción -c permite especificar el número de paquetes de solicitud de eco que se enviarán. Por ejemplo, si deseas enviar 4 paquetes de solicitud de eco, puedes usar el comando ping -c 4 <dirección IP o nombre de host>.
 
 <p align="center">
   <img src="/imagenes/ping.png" alt="Descripción de la imagen" width="500"/>
