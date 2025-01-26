@@ -117,16 +117,19 @@ Se utiliza para mostrar un total general al final de la salida. Esto significa q
 ---
 ## **Comando LSBLK**
 
-se utiliza para listar información sobre todos los dispositivos de bloques disponibles en el sistema. Proporciona detalles sobre los discos duros, particiones y otros dispositivos de almacenamiento, incluyendo el nombre del dispositivo, el tamaño, el tipo y el punto de montaje. Esto permite a los administradores de sistemas obtener una visión general de la configuración de almacenamiento del sistema.
+se utiliza para listar información sobre todos los dispositivos de bloques disponibles en el sistema. Proporciona detalles sobre los discos duros, particiones y otros dispositivos de almacenamiento, incluyendo el nombre del dispositivo, el tamaño, el tipo y el punto de montaje. Esto permite obtener una visión general de la configuración de almacenamiento del sistema.
 
 ---
 - **lsblk**
+
+Obtendremos una lista de todos los dispositivos de bloques disponibles en nuestro sistema. Esto incluye detalles sobre los discos duros, particiones y otros dispositivos de almacenamiento, como el nombre del dispositivo, el tamaño, el tipo y el punto de montaje.
 
 <p align="center">
   <img src="/imagenes/lsblk.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
 - **lsblk --help**
+
 
 
 <p align="center">
