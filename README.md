@@ -1,6 +1,7 @@
 
+---
 <p align="center">
-  <img src="/imagenes/ad.png" alt="Descripción de la imagen" width="200"/>
+  <img src="/imagenes/Monitorizacion-de-sistemas.png" alt="Descripción de la imagen" width="300"/>
 </p>
 
 ---
@@ -22,7 +23,8 @@
 ### [Referencias](Referencias.md)
 
 ---
-
 <p align="center">
-  <img src="/imagenes/rendi.jpg" alt="Descripción de la imagen" width="300"/>
+  <img src="/imagenes/ad.png" alt="Descripción de la imagen" width="150"/>
 </p>
+
+---
