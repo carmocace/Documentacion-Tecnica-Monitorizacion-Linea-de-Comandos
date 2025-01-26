@@ -144,7 +144,24 @@
 </p> 
 
 ---
+## **Comando NLOAD**
 
+Es una herramienta que se utiliza para monitorear el tráfico de red y el uso del ancho de banda en tiempo real. Visualiza el tráfico entrante y saliente utilizando gráficos y proporciona información adicional como la cantidad total de datos transferidos y el uso mínimo/máximo de la red
+
+---
+- **nload**
+
+Obtendremos una visualización en tiempo real del tráfico de red y el uso del ancho de banda.Nos muestra gráficos del tráfico entrante y saliente, así como información adicional como la cantidad total de datos transferidos y el uso mínimo/máximo de la red. Es una herramienta muy útil para quienes necesitan monitorear el rendimiento de la red de manera eficiente.
+
+- **nload --help**
+
+Nos muestra una lista de todas las opciones disponibles, junto con una breve descripción de cada una. Se utiliza para monitorizar en tiempo real el tráfico de red, mostrando gráficos interactivos del ancho de banda utilizado para descarga (inbound) y subida (outbound). Las opciones permiten configurar aspectos como la interfaz de red que se desea monitorizar, el intervalo de actualización, las unidades de medida (bits o bytes), y ajustes visuales como los colores o el escalado automático. Esta ayuda facilita personalizar nload para realizar un seguimiento eficiente del tráfico de red según las necesidades del usuario.
+
+<p align="center">
+  <img src="/imagenes/nload-help.jpg" alt="Descripción de la imagen" width="500"/>
+</p> 
+
+---
 <p align="center">
   <img src="/imagenes/redes2.jpg" alt="Descripción de la imagen" width="500"/>
 </p> 
