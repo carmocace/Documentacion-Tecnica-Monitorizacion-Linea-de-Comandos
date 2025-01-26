@@ -4,7 +4,7 @@
 ***La monitorización del rendimiento es fundamental para garantizar la eficiencia y estabilidad de los sistemas informáticos. Esta práctica permite identificar el uso de recursos como la CPU, la memoria, el disco y la red, ayudando a detectar cuellos de botella y optimizar procesos. En sistemas Linux, existen herramientas de línea de comandos que proporcionan datos en tiempo real sobre el rendimiento general del sistema. En esta presentación, exploraremos algunos de los comandos más utilizados para analizar y mejorar el rendimiento, asegurando un funcionamiento óptimo del sistema.***
 
 <p align="center">
-  <img src="/imagenes/ojo.jpg" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/image.png" alt="Descripción de la imagen" width="500"/>
 </p> 
 
 ---
@@ -196,6 +196,6 @@ Las opciones permiten personalizar qué módulos o métricas se desean mostrar, 
 
 ---
 <p align="center">
-  <img src="/imagenes/rendi.jpg" alt="Descripción de la imagen" width="500"/>
+  <img src="/imagenes/ad.png" alt="Descripción de la imagen" width="300"/>
 </p> 
 
