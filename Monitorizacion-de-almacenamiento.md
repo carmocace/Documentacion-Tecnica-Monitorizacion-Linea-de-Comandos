@@ -115,6 +115,25 @@ Se utiliza para mostrar un total general al final de la salida. Esto significa q
 </p>
 
 ---
+## **Comando LSBLK**
+
+se utiliza para listar información sobre todos los dispositivos de bloques disponibles en el sistema. Proporciona detalles sobre los discos duros, particiones y otros dispositivos de almacenamiento, incluyendo el nombre del dispositivo, el tamaño, el tipo y el punto de montaje. Esto permite a los administradores de sistemas obtener una visión general de la configuración de almacenamiento del sistema.
+
+---
+- **lsblk**
+
+<p align="center">
+  <img src="/imagenes/lsblk.png" alt="Descripción de la imagen" width="500"/>
+</p>
+
+- **lsblk --help**
+
+
+<p align="center">
+  <img src="/imagenes/lsblk-help.png" alt="Descripción de la imagen" width="500"/>
+</p>
+
+---
 ## **Comando FREE**
 
 *Se utiliza para mostrar la cantidad de memoria libre y usada en el sistema, incluyendo la memoria física (RAM) y el espacio de intercambio (swap). Proporcionará un resumen del uso de la memoria en tiempo real, permitiendo a los administradores de sistemas conocer el estado y el rendimiento de la memoria.*
