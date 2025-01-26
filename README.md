@@ -1,7 +1,13 @@
+<p align="center">
+  <img src="/imagenes/rendi.jpg" alt="Descripción de la imagen" width="300"/>
+</p>
+
+---
 # **Documentación Técnica sobre Monitorización de Sistemas Informáticos**
 
-## **Indice**
+# **Indice**
 
+---
 ### [Introducción](Introducción.md)
 
 ### [Monitorización de Procesos](Monitorizacion-de-procesos.md)
@@ -14,3 +20,7 @@
 
 ### [Referencias](Referencias.md)
 
+---
+<p align="center">
+  <img src="/imagenes/ojo.jpg" alt="Descripción de la imagen" width="300"/>
+</p>
