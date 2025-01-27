@@ -243,7 +243,7 @@ Nos muestra una lista de todas las opciones disponibles para el comando, junto c
 ---
 ## **Comando PING**
 
-se utiliza para verificar la conectividad de red entre dos dispositivos. Envía paquetes de solicitud de eco ICMP a un host específico y espera una respuesta. Esto nos permite determinar si un dispositivo está accesible en la red y medir el tiempo de respuesta.
+Se utiliza para verificar la conectividad de red entre dos dispositivos. Envía paquetes de solicitud de eco ICMP a un host específico y espera una respuesta. Esto nos permite determinar si un dispositivo está accesible en la red y medir el tiempo de respuesta.
 
 ---
 - **OPCIONES:**
@@ -251,7 +251,7 @@ se utiliza para verificar la conectividad de red entre dos dispositivos. Envía 
 ---
 - **ping --help**
 
-se muestra una lista completa de las opciones disponibles para el comando, junto con una breve descripción de su propósito. Esto permite explorar las funcionalidades del comando y personalizar su uso según las necesidades.
+Se muestra una lista completa de las opciones disponibles para el comando, junto con una breve descripción de su propósito. Esto permite explorar las funcionalidades del comando y personalizar su uso según las necesidades.
 
 <p align="center">
   <img src="/imagenes/ping-help.png" alt="Descripción de la imagen" width="500"/>
