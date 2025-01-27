@@ -130,7 +130,7 @@ Obtendremos una lista de todos los dispositivos de bloques disponibles en nuestr
 
 - **lsblk --help**
 
-
+Nos muestra una lista completa de las opciones disponibles para el comando, junto con una breve descripción de cada una. Esto permite conocer las funcionalidades que ofrece, como personalizar la salida, filtrar los dispositivos mostrados o incluir información adicional sobre particiones, puntos de montaje, UUID, etiquetas, entre otros. Es una herramienta clave para explorar las posibilidades del comando y adaptarlo a necesidades específicas de administración del sistema.
 
 <p align="center">
   <img src="/imagenes/lsblk-help.png" alt="Descripción de la imagen" width="500"/>
