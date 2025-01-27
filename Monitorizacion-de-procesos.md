@@ -15,7 +15,7 @@ En sistemas Linux, existen diversos comandos que permiten ver, controlar y anali
 El comando ps en Linux tiene muchas opciones útiles para mostrar información sobre los procesos en ejecución. Muestra una lista que incluye información básica sobre cada proceso, como el ID del proceso (PID), el terminal asociado (TTY), el tiempo de CPU utilizado (TIME) y el comando que inició el proceso (CMD).Algunas de las opciones más comunes son:
 
 ---
-### **Opciones:**
+### **OPCIONES:**
 
 ---
 - **ps**
@@ -104,7 +104,7 @@ se utiliza para personalizar la salida del comando ps, permitiéndonos especific
 *El comando top se utiliza para mostrar una lista dinámica y en tiempo real de los procesos que están actualmente en ejecución en el sistema. Proporciona una visión general del uso de la CPU, la memoria y otros recursos del sistema, permitiendo a los administradores de sistemas monitorear el rendimiento y la actividad del sistema en tiempo real.*
 
 ---
-### **Opciones:**
+### **OPCIONES:**
 
 ---
 - **top**
@@ -171,7 +171,7 @@ Se utiliza para enviar una señal a un proceso específico, lo que generalmente 
 *El comando atop es una herramienta avanzada de monitorización de sistemas que proporciona una visión detallada y en tiempo real del uso de recursos del sistema, como la CPU, la memoria, el disco y la red. A diferencia de otras herramientas de monitorización, atop puede registrar la actividad del sistema en intervalos regulares y guardar estos registros para su análisis posterior.*
 
 ---
-### **Opciones:**
+### **OPCIONES:**
 
 ---
 - **atop**
@@ -267,7 +267,7 @@ Cuando instalamoss el comando htop, se instalará junto al comando, una aplicaci
 </p>
 
 ---
-### **Opciones:**
+### **OPCIONES:**
 
 ---
 - **htop**
