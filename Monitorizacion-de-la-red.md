@@ -14,7 +14,7 @@
 Se utiliza para mostrar estadísticas de red y conexiones de red en el sistema. Proporciona información detallada sobre las conexiones de red activas, las tablas de enrutamiento, las interfaces de red y las estadísticas de protocolo. Es una herramienta muy útil para los administradores de sistemas que necesitan monitorear y depurar problemas de red de manera eficiente.
 
 ---
-### **OPCIONES**
+### **OPCIONES:**
 
 ---
 - **netstat**
