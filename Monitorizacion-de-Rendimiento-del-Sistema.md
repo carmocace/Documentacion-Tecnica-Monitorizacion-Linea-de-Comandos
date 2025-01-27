@@ -24,7 +24,7 @@ Nos mostrará un resumen de las estadísticas del sistema desde el inicio del d�
   <img src="/imagenes/sar.png" alt="Descripción de la imagen" width="500"/>
 </p> 
 
-- **sar-help**
+- **sar --help**
 
 Nos muestra una lista de todas las opciones disponibles para el comando sar, junto con una breve descripción de cada una. Esto es útil para obtener una visión general de las capacidades del comando y cómo se pueden utilizar las diferentes opciones para monitorizar distintos aspectos del sistema. Entre las opciones más comunes se encuentran el análisis del uso de la CPU, memoria, disco, red, y otros recursos, tanto en tiempo real como a partir de registros históricos. De esta forma, podemos seleccionar las opciones adecuadas para obtener información detallada sobre el rendimiento y actividad del sistema.
 
@@ -60,7 +60,7 @@ Mostrará una lista de todas las opciones disponibles para el comando glances, j
 ---
 ## **Comando SMEM**
 
-Es una herramienta de monitoreo de memoria que proporciona un desglose detallado del uso de la memoria en el sistema. A diferencia de otras herramientas de monitoreo de memoria, smem puede mostrar el uso de la memoria física y virtual por proceso, lo que permite a los administradores de sistemas identificar qué procesos están consumiendo más memoria.
+Es una herramienta de monitoreo de memoria que proporciona un desglose detallado del uso de la memoria en el sistema. A diferencia de otras herramientas de monitoreo de memoria, smem puede mostrar el uso de la memoria física y virtual por proceso, lo que permite a los administradores de sistemas identificar qué procesos están consumiendo más memoria. Se utiliza para analizar y reportar el uso de memoria en un sistema Linux. Proporciona información detallada sobre cómo se está utilizando la memoria por cada proceso, incluyendo memoria física y memoria compartida, con un enfoque visual y comprensible. Esto permite identificar procesos que consumen demasiados recursos y optimizar el rendimiento del sistema.
 
 ---
 ## **OPCIONES:**
@@ -84,11 +84,16 @@ Nos muestra una lista de todas las opciones disponibles para el comando smem, ju
 
 - **smem -u**
 
+Nos muestra un desglose del uso de memoria por usuario en lugar de por proceso. Esto es particularmente útil cuando se quiere identificar qué usuarios están utilizando más recursos en el sistema. Presenta información como el total de memoria utilizada y cómo está distribuida entre los usuarios activos.
+
 <p align="center">
   <img src="/imagenes/smem-u.png" alt="Descripción de la imagen" width="500"/>
 </p>
 
 - **smem -m**
+
+Obtendremos un resumen de la memoria del sistema, incluyendo detalles de la memoria física total, usada y libre, así como la memoria compartida, de intercambio (swap) y buffers. Esta vista global es útil para evaluar rápidamente la disponibilidad de memoria del sistema.
+
 
 <p align="center">
   <img src="/imagenes/smem-m.png" alt="Descripción de la imagen" width="500"/>
