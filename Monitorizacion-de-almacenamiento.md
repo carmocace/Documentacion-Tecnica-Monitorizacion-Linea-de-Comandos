@@ -14,7 +14,7 @@
 *Se utiliza para mostrar el uso del espacio en disco en los sistemas de archivos montados. Proporciona información detallada sobre la cantidad de espacio total, usado y disponible en cada sistema de archivos, así como el porcentaje de uso. Esto nos permite conocer el estado y la capacidad de almacenamiento en tiempo real.*
 
 ---
-### **Opciones:**
+### **OPCIONES:**
 
 ---
 - **df**
@@ -71,7 +71,7 @@ La opción -x se utiliza para excluir sistemas de archivos de un tipo específic
 *Se utiliza para estimar y mostrar el uso del espacio en disco de archivos y directorios. Proporcionará información detallada sobre la cantidad de espacio en disco utilizado por cada archivo y directorio especificado, permite conocer el estado y la capacidad de almacenamiento en tiempo real.*
 
 ---
-### **Opciones**
+### **OPCIONES**
 
 ---
 - **du**
@@ -120,6 +120,9 @@ Se utiliza para mostrar un total general al final de la salida. Esto significa q
 se utiliza para listar información sobre todos los dispositivos de bloques disponibles en el sistema. Proporciona detalles sobre los discos duros, particiones y otros dispositivos de almacenamiento, incluyendo el nombre del dispositivo, el tamaño, el tipo y el punto de montaje. Esto permite obtener una visión general de la configuración de almacenamiento del sistema.
 
 ---
+- **OPCIONES**
+
+---
 - **lsblk**
 
 Obtendremos una lista de todos los dispositivos de bloques disponibles en nuestro sistema. Esto incluye detalles sobre los discos duros, particiones y otros dispositivos de almacenamiento, como el nombre del dispositivo, el tamaño, el tipo y el punto de montaje.
@@ -142,7 +145,7 @@ Nos muestra una lista completa de las opciones disponibles para el comando, junt
 *Se utiliza para mostrar la cantidad de memoria libre y usada en el sistema, incluyendo la memoria física (RAM) y el espacio de intercambio (swap). Proporcionará un resumen del uso de la memoria en tiempo real, permitiendo a los administradores de sistemas conocer el estado y el rendimiento de la memoria.*
 
 ---
-### **Opciones**
+### **OPCIONES**
 
 ---
 - **free**
@@ -192,7 +195,7 @@ Se utiliza para mostrar un resumen del uso de la memoria, incluyendo la memoria 
 *Se utiliza para monitorear el rendimiento del sistema, específicamente el uso de la CPU y las estadísticas de entrada/salida de los dispositivos de almacenamiento. Proporcionará información detallada sobre la carga de trabajo del sistema y el rendimiento de los dispositivos de almacenamiento, permitiendo a los administradores de sistemas identificar posibles cuellos de botella y optimizar el rendimiento.*
 
 ---
-### **Opciones**
+### **OPCIONES**
 
 ---
 - **iostat**
